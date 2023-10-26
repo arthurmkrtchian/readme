@@ -16,7 +16,7 @@ In the table below displays:
 2. The actual time they took with 20,000,000 items.
 
 
-| **Method**               | **Average Complexity**| **Average latency for 20,000,000 elements**|
+| **Method**               | **Average Complexity**| **Average latency for 20 mln elements**|
 |--------------------------|-----------------------|----------------------|
 | `put(long key, V value)` | O(n)                  | 2622.77 ms	          |
 | `get(long key)`          | O(1)                  | 0.10 ms	            |
