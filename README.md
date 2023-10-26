@@ -22,8 +22,8 @@ In the table below displays:
 | `get(long key)`          | O(1)                  | 0.10 ms	            |
 | `remove(long key)`       | O(1)                  | 0.14 ms              |
 | `isEmpty()`              | O(1)                  | 0.13 ms	            |
-| `containsKey(long key)`  | O(n)                  | 0.29 ms	            |
-| `containsValue(V value)` | O(n)                  | 0.23 ms	            |
+| `containsKey(long key)`  | O(1)                  | 0.29 ms	            |
+| `containsValue(V value)` | O(1)                  | 0.23 ms	            |
 | `keys()`                 | O(n log n)            | 389.43 ms	          |
 | `values()`               | O(n log n)            | 636.76 ms	          |
 | `size()`                 | O(1)                  | 0.28 ms              |
