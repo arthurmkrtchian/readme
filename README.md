@@ -23,10 +23,10 @@ In the table below displays:
 | `isEmpty()`              | **O(1)**            | 0,05 	                 | 0,04 	    | 0,02 	    | 0,03        |
 | `containsKey(long key)`  | **O(1)**            | 0,08 	                 | 0,05       | 0,03 	    | 0,03        |
 | `containsValue(V value)` | **O(1)**            | 0,07 	                 | 0,05 	    | 0,03      | 0,03        |
-| `keys()`                 | **O(n log n)**      | 353,53 	               | 82,92      | 33,10     | 18,45       |
-| `values()`               | **O(n log n)**      | 488,96 	               | 138,38     | 78,45     | 32,42       |
+| `keys()`                 | **O(n)**            | 353,53 	               | 82,92      | 33,10     | 18,45       |
+| `values()`               | **O(n)**            | 488,96 	               | 138,38     | 78,45     | 32,42       |
 | `size()`                 | **O(1)**            | 0,07                    | 0,05       | 0,03 	    | 0,03        |
-| `clear()`                | **O(n log n)**      | 0,05                    | 16,60      | 8,14      | 3,32        |
+| `clear()`                | **O(1)**            | 0,05                    | 0,04       | 0,03      | 0,03        |
 
 
 ## Performance Analysis of arrayList-based LongMap Methods
